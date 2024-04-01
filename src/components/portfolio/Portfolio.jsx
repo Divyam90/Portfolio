@@ -10,7 +10,7 @@ const Portfolio = () => {
               <div className="worksImgs">
                   {images.map((index,i)=>(
                       <div className="card">
-                      <div className="card-body">Hello</div>
+                      <div className="card-body"></div>
 
                       <img className="worksImg" key={i} src={index.img} alt="" />
                       </div>

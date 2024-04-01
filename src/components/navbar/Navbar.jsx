@@ -13,7 +13,7 @@ const [menu, setmenu] = useState(false)
           <img  src={logo} alt="logo" className='logo' />
           <div className="desktopMenu">
               <Link activeClass='active' to="intro" spy={true} smooth={true} offset={-50} duration={500} className="desktopmenulist">Home</Link>
-              <Link activeClass='active' to="skills" spy={true} smooth={true} offset={-50} duration={500} className="desktopmenulist">About</Link>
+              <Link activeClass='active' to="skills" spy={true} smooth={true} offset={-70} duration={500} className="desktopmenulist">About</Link>
               <Link activeClass='active' to="works" spy={true} smooth={true} offset={-50} duration={500} className="desktopmenulist">Portfolio</Link>
               <Link activeClass='active' to="contact" spy={true} smooth={true} offset={-80} duration={500} className="desktopmenulist">Contact</Link>
           </div>
